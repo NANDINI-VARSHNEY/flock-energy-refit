@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "title": "REFIT: Electrical Load Measurements",
+    "institution": "University of Strathclyde, Loughborough University, University of East Anglia",
+    "funder": "EPSRC (Grant Reference EP/K002368/1)",
+    "sampling_interval_raw": "8 seconds (approx)",
+    "units": "Active Power (Watts)",
+    "date_range": "October 2013 - June 2015",
+    "raw_url": "https://pureportal.strath.ac.uk/files/62090177/REFIT_RAW_081116.7z",
+    "clean_url": "https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z",
+    "readme_url": "https://pure.strath.ac.uk/ws/portalfiles/portal/62090183/CLEAN_READ_ME_081116.txt",
+    "zenodo_doi": "10.5281/zenodo.5063428",
+    "paper_doi": "10.1038/sdata.2016.122"
+  },
+  "stages": {
+    "cleaning_house1": {
+      "raw_record_count": 73171,
+      "raw_columns": [
+        "Time",
+        "Unix",
+        "Aggregate",
+        "Appliance1",
+        "Appliance2",
+        "Appliance3",
+        "Appliance4",
+        "Appliance5",
+        "Appliance6",
+        "Appliance7",
+        "Appliance8",
+        "Appliance9"
+      ],
+      "null_timestamps_dropped": 0,
+      "start_timestamp_raw": "2014-03-01 00:00:00",
+      "end_timestamp_raw": "2014-03-07 23:59:54",
+      "duplicate_timestamp_count": 363,
+      "median_sampling_interval_sec": 8.0,
+      "irregular_interval_count": 1794,
+      "extreme_readings": {
+        "Aggregate": {
+          "negative_count": 0,
+          "exceed_limit_count": 2,
+          "max_value_raw": 18500.0
+        },
+        "Appliance1": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 124.73501098610544
+        },
+        "Appliance2": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 81.66908351977709
+        },
+        "Appliance3": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 71.11061495693826
+        },
+        "Appliance4": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 0.0
+        },
+        "Appliance5": {
+          "negative_count": 0,
+          "exceed_limit_count": 3,
+          "max_value_raw": 5200.0
+        },
+        "Appliance6": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 0.0
+        },
+        "Appliance7": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 150.0
+        },
+        "Appliance8": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 90.0
+        },
+        "Appliance9": {
+          "negative_count": 0,
+          "exceed_limit_count": 0,
+          "max_value_raw": 0.0
+        }
+      },
+      "cleaned_record_count": 10080,
+      "prolonged_outage_minutes": 0,
+      "cleaned_start_time": "2014-03-01 00:00:00",
+      "cleaned_end_time": "2014-03-07 23:59:00"
+    },
+    "washing_machine_eda": {
+      "House 1": {
+        "House": "House 1",
+        "Date_Range_Start": "2014-04-01 00:00:00",
+        "Date_Range_End": "2014-04-14 23:59:00",
+        "Total_Minutes": 20160,
+        "Zero_Off_Time_Percent": 97.32638888888889,
+        "Active_Time_Percent": 2.673611111111111,
+        "Detected_Cycles_Count": 7,
+        "Mean_Cycle_Duration_Minutes": 80.0,
+        "Median_Cycle_Duration_Minutes": 80.0,
+        "Mean_Peak_Power_Watts": 2339.71967762439,
+        "Max_Peak_Power_Watts": 2349.6279483282997,
+        "Mean_Energy_Per_Cycle_kWh": 1.1076513731564879,
+        "Total_Energy_kWh": 7.753559612095414
+      },
+      "House 2": {
+        "House": "House 2",
+        "Date_Range_Start": "2014-04-01 00:00:00",
+        "Date_Range_End": "2014-04-14 23:59:00",
+        "Total_Minutes": 20160,
+        "Zero_Off_Time_Percent": 98.09027777777779,
+        "Active_Time_Percent": 1.9097222222222223,
+        "Detected_Cycles_Count": 5,
+        "Mean_Cycle_Duration_Minutes": 80.0,
+        "Median_Cycle_Duration_Minutes": 80.0,
+        "Mean_Peak_Power_Watts": 2346.2087584654805,
+        "Max_Peak_Power_Watts": 2349.0434412886043,
+        "Mean_Energy_Per_Cycle_kWh": 1.117650723584351,
+        "Total_Energy_kWh": 5.588253617921755
+      },
+      "House 3": {
+        "House": "House 3",
+        "Date_Range_Start": "2014-04-01 00:00:00",
+        "Date_Range_End": "2014-04-14 23:59:00",
+        "Total_Minutes": 20160,
+        "Zero_Off_Time_Percent": 97.32638888888889,
+        "Active_Time_Percent": 2.673611111111111,
+        "Detected_Cycles_Count": 7,
+        "Mean_Cycle_Duration_Minutes": 80.0,
+        "Median_Cycle_Duration_Minutes": 80.0,
+        "Mean_Peak_Power_Watts": 2338.829132981328,
+        "Max_Peak_Power_Watts": 2348.738237666201,
+        "Mean_Energy_Per_Cycle_kWh": 1.11136174868456,
+        "Total_Energy_kWh": 7.77953224079192
+      },
+      "House 5": {
+        "House": "House 5",
+        "Date_Range_Start": "2014-04-01 00:00:00",
+        "Date_Range_End": "2014-04-14 23:59:00",
+        "Total_Minutes": 20160,
+        "Zero_Off_Time_Percent": 98.47222222222223,
+        "Active_Time_Percent": 1.5277777777777777,
+        "Detected_Cycles_Count": 4,
+        "Mean_Cycle_Duration_Minutes": 80.0,
+        "Median_Cycle_Duration_Minutes": 80.0,
+        "Mean_Peak_Power_Watts": 2328.884701859232,
+        "Max_Peak_Power_Watts": 2340.0034316112265,
+        "Mean_Energy_Per_Cycle_kWh": 1.110506686974102,
+        "Total_Energy_kWh": 4.442026747896408
+      }
+    },
+    "disaggregation_model": {
+      "evaluation_metrics": {
+        "Baseline_AlwaysOff": {
+          "Model": "Baseline (Always-Off)",
+          "MAE_Watts": 33.521360486664435,
+          "RMSE_Watts": 246.72074054588407,
+          "Actual_Energy_kWh": 1.1252003336690362,
+          "Predicted_Energy_kWh": 0.0,
+          "Energy_Error_Percent": 99.99991112701612,
+          "Activation_F1_Score": 0.0,
+          "Activation_Precision": 0.0,
+          "Activation_Recall": 0.0
+        },
+        "Baseline_Diurnal": {
+          "Model": "Baseline (Diurnal Mean)",
+          "MAE_Watts": 48.62718269510436,
+          "RMSE_Watts": 248.87560754711683,
+          "Actual_Energy_kWh": 1.1252003336690362,
+          "Predicted_Energy_kWh": 0.5662001021272053,
+          "Energy_Error_Percent": 49.680018572236584,
+          "Activation_F1_Score": 0.345679012345679,
+          "Activation_Precision": 0.23333333333333334,
+          "Activation_Recall": 0.6666666666666666
+        },
+        "HistGradientBoosting": {
+          "Model": "HistGradientBoosting",
+          "MAE_Watts": 2.2400885167208204,
+          "RMSE_Watts": 20.138397000356417,
+          "Actual_Energy_kWh": 1.1252003336690362,
+          "Predicted_Energy_kWh": 1.1297223339098252,
+          "Energy_Error_Percent": 0.4018836545495218,
+          "Activation_F1_Score": 0.9545454545454546,
+          "Activation_Precision": 0.9130434782608695,
+          "Activation_Recall": 1.0
+        },
+        "RandomForest": {
+          "Model": "RandomForest",
+          "MAE_Watts": 0.8139996954037892,
+          "RMSE_Watts": 9.828969078110436,
+          "Actual_Energy_kWh": 1.1252003336690362,
+          "Predicted_Energy_kWh": 1.1136461729237335,
+          "Energy_Error_Percent": 1.0268527417779618,
+          "Activation_F1_Score": 1.0,
+          "Activation_Precision": 1.0,
+          "Activation_Recall": 1.0
+        }
+      },
+      "failure_analysis": {
+        "Total_Test_Minutes": 2014,
+        "Actual_Active_Minutes": 84,
+        "False_Positive_Minutes": 8,
+        "False_Positive_Mean_Aggregate_Watts": 1132.3334661768072,
+        "False_Negative_Minutes": 0,
+        "False_Negative_Mean_True_Watts": 0.0,
+        "Key_Failure_Mechanism_FP": "Overlapping multi-kW heating signatures from kettles, ovens, and showers triggering false activation.",
+        "Key_Failure_Mechanism_FN": "Low-power intermediate wash/soak tumbling phases (50-150W) masked by household base loads."
+      }
+    }
+  }
+}

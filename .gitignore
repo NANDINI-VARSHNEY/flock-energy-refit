@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw and Cleaned Data Files (exclude multi-GB CSVs from GitHub)
+data/raw/*.csv
+data/raw/*.7z
+data/cleaned/*.csv
+data/cleaned/*.7z
+*.7z
+*.zip
+*.tar.gz
+
+# Retain directory structure
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+!data/processed/.gitkeep
+!plots/.gitkeep
+!models/.gitkeep
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
